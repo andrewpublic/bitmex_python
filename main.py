@@ -25,7 +25,7 @@ def run():
 			ws.get_instrument()
 			logger.info("\n\n\nBitcoin: %s" % ws.get_ticker())
 		elif result == "2":
-			client = bitmex(test=False, api_key="HrEZHEgnNuYbaNKtYfvA-4AI", api_secret="QTpntb7xCPu0415i7f8iMRUG6t1iEUq0HVKkZiPnVp6x5yer")
+			client = bitmex(test=False, api_key="APIPUBLIC", api_secret="APIPRIVATE")
 			client.Order.Order_new(symbol="XBTUSD", orderQty=int(input()), price=int(input())).result()
 		
 		print("\n")
