@@ -1,6 +1,7 @@
 # bitmex_python
 Bitmex trading client - using Websockets and APIs
-UNFINISHED
+
+Basic functionality working - UNFINISHED
 
 I'll probably be using this in a job interview
 
