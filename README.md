@@ -6,3 +6,5 @@ Basic functionality working - UNFINISHED
 I'll probably be using this in a job interview
 
 Hello please hire me thank you.
+
+Disclaimer: I only wrote main.py
