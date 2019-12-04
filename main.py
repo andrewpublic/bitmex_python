@@ -5,16 +5,10 @@ from time import sleep
 import json
 import datetime
 
-'''
-HrEZHEgnNuYbaNKtYfvA-4AI
-QTpntb7xCPu0415i7f8iMRUG6t1iEUq0HVKkZiPnVp6x5ye
-what is security
-'''
-
 def run():
 	logger = setup_logger()
 	exit = False
-	ws = BitMEXWebsocket(endpoint="https://www.bitmex.com/api/v1", symbol="XBTUSD", api_key="HrEZHEgnNuYbaNKtYfvA-4AI", api_secret="QTpntb7xCPu0415i7f8iMRUG6t1iEUq0HVKkZiPnVp6x5yer")
+	ws = BitMEXWebsocket(endpoint="https://www.bitmex.com/api/v1", symbol="XBTUSD", api_key="APIPUBLIC", api_secret="APIPRIVATE")
   	
 	print("\n\n*********************************\nHELLO\n*********************************\n")
 	
