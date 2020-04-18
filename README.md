@@ -1,10 +1,6 @@
 # bitmex_python
 Bitmex trading client - using Websockets and APIs
 
-Basic functionality working - UNFINISHED
+Basic functionality working (minimal functionality) - UNFINISHED
 
-I'll probably be using this in a job interview
-
-Hello please hire me thank you.
-
-Disclaimer: I only wrote main.py
+Rewriting main.py -> main2.py to get GUI functionality working with TkInter. main.py is now deprecated.
